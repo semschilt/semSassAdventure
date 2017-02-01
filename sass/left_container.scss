@@ -1,0 +1,55 @@
+.left_container {
+  background-color: $background;
+  width: 20%;
+  float: left;
+  margin: 2% 0 5% 7%;
+  padding: 2%;
+
+  .profile-pic {
+    width: 100%;
+
+    img {
+      width: 100%;
+      margin: 2% auto;
+    }
+  }
+}
+
+.navigation {
+  background: $background;
+  ul {
+    width: 100%;
+    text-align: center;
+    @include clearfix;
+  }
+  li {
+    width: (100% / 4);
+    display: inline-block;
+    padding: 4% 9% 4% 9%;
+    margin: 1%;
+    text-decoration: none;
+    border-style: solid;
+    &:hover{
+      background: $hover;
+    }
+  }
+  a {
+    text-decoration: none;
+    padding-right: 16px;
+  }
+}
+
+.media-link {
+  width: 100%;
+  padding: 2% 7%;
+
+  a{
+    img {
+      width: (80% / 3);
+      transition: all 1s ease;
+    }
+    :hover {
+      transform:scale(1.25);
+    }
+  }
+}

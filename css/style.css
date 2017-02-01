@@ -1,0 +1,68 @@
+body {
+  font-family: "Lucida Sans", sans-serif;
+  background: #dcf0f7; }
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0; }
+
+fieldset, img {
+  border: 0; }
+
+li {
+  list-style: none; }
+
+.left_container {
+  background-color: #dce3f7;
+  width: 20%;
+  float: left;
+  margin: 2% 0 5% 7%;
+  padding: 2%; }
+  .left_container .profile-pic {
+    width: 100%; }
+    .left_container .profile-pic img {
+      width: 100%;
+      margin: 2% auto; }
+
+.navigation {
+  background: #dce3f7; }
+  .navigation ul {
+    width: 100%;
+    text-align: center; }
+    .navigation ul:after {
+      content: "";
+      display: block;
+      clear: both; }
+  .navigation li {
+    width: 25%;
+    display: inline-block;
+    padding: 4% 9% 4% 9%;
+    margin: 1%;
+    text-decoration: none;
+    border-style: solid; }
+    .navigation li:hover {
+      background: #DCF0F7; }
+  .navigation a {
+    text-decoration: none;
+    padding-right: 16px; }
+
+.media-link {
+  width: 100%;
+  padding: 2% 7%; }
+  .media-link a img {
+    width: 26.66667%;
+    transition: all 1s ease; }
+  .media-link a :hover {
+    -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25); }
+
+.right_container {
+  background-color: #dce3f7;
+  width: 50%;
+  float: left;
+  margin: 2% 0 5% 7%;
+  padding: 2%; }
