@@ -1,5 +1,5 @@
 .left_container {
-  background-color: $background;
+  @include background-gradient($background, $backgroundtrans, 'vertical');
   width: 20%;
   float: left;
   margin: 2% 0 5% 7%;
@@ -16,7 +16,6 @@
 }
 
 .navigation {
-  background: $background;
   ul {
     width: 100%;
     text-align: center;
